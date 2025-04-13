@@ -44,102 +44,102 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body style="background: whitesmoke">
     <nav
-      class="navbar navbar-expand-sm navbar-dark"
-      style="background-color: #2c3e50; border-bottom: #d3d3d3"
+      class="navbar navbar-expand-sm navbar-light"
+      style="
+        background-color: #fff8f0;
+        border-bottom: 1px solid #f3e5f5;
+        border: 3px solid bisque;
+      "
     >
-      <a class="navbar-brand" href=""
-        ><img
-          src="assets/Images/learn.png"
-          alt=""
-          style="width: auto; height: 40px"
-      /></a>
-      <button
-        class="navbar-toggler d-lg-none"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      ></button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a href="learn.html">
-              <button
-                class="btn btn-outline my-2 my-sm-0"
-                type="submit"
-                style="background-color: #5dade2"
+      <div class="container-fluid">
+        <div class="navbar-brand d-flex flex-column justify-content-center">
+          <h5
+            class="mb-0 font-weight-bold"
+            style="color: #6a1b4d; font-size: 22px"
+          >
+            Wedding Planner
+          </h5>
+          <p class="mb-0" style="font-size: 13px; color: #a1887f">
+            Designed with love, Plan to perfection.
+          </p>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a
+                href="learn.html"
+                class="btn text-dark"
+                style="background-color: #f8bbd0; margin-left: 50px"
               >
                 Learn
+              </a>
+            </li>
+          </ul>
+
+          <!-- Search bar -->
+          <form class="form-inline mx-auto" style="gap: 10px">
+            <div class="position-relative">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="What you want to learn?"
+                style="padding-right: 40px; width: 400px"
+              />
+              <button
+                type="button"
+                class="position-absolute"
+                style="right: 10px; top: 8px; border: none; background: none"
+              >
+                <i class="fa fa-search text-secondary"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- Right-side buttons -->
+          <div class="ml-auto d-flex align-items-center" style="gap: 20px">
+            <a href="login.html">
+              <button
+                type="button"
+                class="btn text-white"
+                style="background-color: #ab47bc"
+              >
+                Log In
               </button>
             </a>
-          </li>
-        </ul>
-        <form
-          class="form-inline my-2 my-lg-0"
-          style="position: absolute; left: 500px"
-        >
-          <div style="position: relative">
-            <input
-              class="form-control mr-sm-2"
-              type="text"
-              placeholder="What You want to learn ?"
-              style="padding-right: 40px; width: 400px"
-            />
-            <button
-              type="button"
-              style="
-                position: absolute;
-                right: 15px;
-                margin-top: 6px;
-                border: none;
-                background: none;
-              "
-            >
-              <i class="fa fa-search"></i>
-            </button>
+            <a href="register.html">
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  background-color: #ad1457;
+                  border-color: #e91e63;
+                  width: 200px;
+                  height: 40px;
+                "
+              >
+                Register For Free
+              </button>
+            </a>
           </div>
-
-          <a href="login.html">
-            <button
-              class="btn btn my-2 my-sm-0"
-              type="button"
-              style="
-                background-color: #7f8c8d;
-                position: relative;
-                left: 675px;
-                margin-top: 0px;
-                margin-left: -400px;
-              "
-            >
-              Log In
-            </button>
-          </a>
-
-          <a href="register.html">
-            <button
-              class="button btn my-2 my-sm-0"
-              type="button"
-              style="
-                background-color: #c2185b;
-                width: 200px;
-                height: 40px;
-                position: relative;
-                left: 800px;
-                border-color: #e91e63;
-                margin-top: 0px;
-                margin-left: -400px;
-              "
-            >
-              Register For free
-            </button>
-          </a>
-        </form>
+        </div>
       </div>
     </nav>
+
     <div class="container">
       <div class="row">
         <div class="col-md-6" style="position: relative; color: #333333">
@@ -198,14 +198,14 @@
         </div>
         <div class="col-md-6">
           <img
-            src="assets/Images/img.png"
+            src="assets/Gallery/image.png"
             alt=""
             style="
-              width: 900px;
-              height: 650px;
+              width: 800px;
+              height: 450px;
               position: absolute;
-              left: -140px;
-              top: 35px;
+              left: -80px;
+              top: 120px;
             "
           />
         </div>
