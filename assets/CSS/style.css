@@ -182,3 +182,43 @@ h3,
   color: blue;
   text-decoration: underline;
 }
+.marriage-card {
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.marriage-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.marriage-card .card-body {
+  padding: 20px;
+}
+
+.marriage-card .names {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.marriage-card .heart {
+  color: black;
+  margin: 0 5px;
+}
+
+.marriage-card .message {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.marriage-card .date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 15px;
+}
